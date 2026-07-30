@@ -17,3 +17,7 @@ Stop the PostgreSQL container using Docker Compose:
 ```bash
 docker compose -f docker/postgres/docker-compose.yaml down
 ```
+
+## GitHub Actions
+
+Take YAML files from the `github` directory and put them in your GitHub repository's `.github/workflows` directory to enable the corresponding CI/CD workflows.
