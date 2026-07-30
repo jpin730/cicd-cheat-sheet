@@ -1,0 +1,13 @@
+services:
+  postgres:
+    image: postgres:18.4
+    container_name: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=postgres
+    volumes:
+      - ./data:/var/lib/postgresql/18/docker
