@@ -4,6 +4,15 @@ A quick personal reference guide for Continuous Integration and Continuous Deplo
 
 ## Docker
 
+### Dockerfile templates
+
+Available templates:
+
+- Angular:
+  - `docker/angular/Dockerfile.pnpm`
+- NestJS:
+  - `docker/nest-js/Dockerfile.npm`
+
 ### Run a local PostgreSQL container
 
 Start the PostgreSQL container using Docker Compose:
